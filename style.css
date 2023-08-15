@@ -1,0 +1,38 @@
+html{background-color:rgb(239, 238, 215)}
+.background{background-color: antiquewhite; display: block;}
+h2{font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif; }
+h3{font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;}
+p{font-family: 'EB Garamond', serif; font-size: 1.2rem}
+.pic-container{display:flex; justify-content: center; height: 100vh; align-items: center;}
+.textbox{position: absolute; top: 350px; right:}
+.textbox-2{position: absolute; top: 550px;}
+.heading{color:rgb(255, 191, 127); font-family: 'Caveat', cursive; font-size: 3.5rem;}
+.sub-heading{color: rgb(255, 191, 127); font-size: 1.8rem; letter-spacing: 2px;}
+.profile-cont{display: flex; height: 200px; justify-content: center; } 
+#profile{border-radius: 50%} .hi{color:rgb(255, 191, 127)} 
+.middle{height: 400px; width: 100%} .skills{margin-top: 50px}
+.bio{text-align: center;} hr{width: 20%; border: dotted 6px; background-color:blanchedalmond; border-bottom: none;}
+.sub-heading-2{display: flex; justify-content: center;}
+.paragraph{display: flex; justify-content:center;}
+.container{display: flex; height: 900px; width: 100%; justify-content: center; 
+align-items: center; } .center{text-align: center;} .tiny{font-size: 0.8rem}
+.gridbox{display: grid;  gap: 50px; height: 800px; width: 600px; grid-template-columns: 1fr, 1fr;
+grid-template-rows: 1fr, 1fr; background-color: antiquewhite}
+.first{ grid-area: 1 / 1 / 2 / 2; } .second{grid-area: 1 / 2 / 2 / 3; padding: 10px}
+.box{background-color: antiquewhite;} .fourth{padding: 10px;}
+.footer{background-color: antiquewhite; height: 100px; width: 100%;}
+.linkbox{margin-top: 50px; display: block} .copywright{display: flex; justify-content: center; height: 200px; background-color: antiquewhite } 
+
+@media(max-width: 680px;){
+    .pic-container{height: 600px; align-items: flex-start;}
+
+
+
+
+
+
+
+
+}
